@@ -30,6 +30,7 @@ public class ExcelCode
     	XSSFRow r=sh.getRow(i);
     	XSSFCell c=r.getCell(j);
     	int a=(int) c.getNumericCellValue();//to convert string to integer use valueOf method
+    	System.out.println("hai");
     	return String.valueOf(a);
     }
 
